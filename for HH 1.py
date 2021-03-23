@@ -7,4 +7,7 @@ def is_even2(value):
 
 
 if __name__ == '__main__':
-    pass
+    assert is_even1(3) == False
+    assert is_even1(4) == True
+    assert is_even2(5) == False
+    assert is_even2(6) == True
